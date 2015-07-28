@@ -1,0 +1,50 @@
+{
+  "name": "react-login-ui",
+  "version": "0.0.1",
+  "description": "React component for login ui",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihalik/react-login-ui"
+  },
+  "homepage": "https://github.com/dmihalik/react-login-ui",
+  "bugs": "https://github.com/dmihalik/react-login-ui/issues",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "rackt test --single-run --browsers Firefox",
+    "start": "rackt server"
+  },
+  "authors": [
+    "mihalik"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^4.0.0",
+    "eslint": "^0.24.1",
+    "eslint-config-airbnb": "0.0.6",
+    "eslint-plugin-react": "^3.0.0",
+    "rackt-cli": "^0.4.0",
+    "react": "^0.13.3"
+  },
+  "peerDependencies": {
+    "react": "^0.13.3"
+  },
+  "tags": [
+    ""
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "babel-runtime": "^5.8.5",
+    "react-themeable": "^1.0.1"
+  },
+  "babel": {
+    "optional": [
+      "runtime"
+    ],
+    "stage": 0
+  }
+}

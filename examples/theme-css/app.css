@@ -1,0 +1,35 @@
+body {
+  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+}
+
+.example {
+  padding: 0 25px;
+}
+
+.ReactLoginUI--dialog {
+  width: 450px;
+  margin: 3em auto;
+  border: 1px solid #ccc;
+}
+
+.ReactLoginUI--button {
+  color: #fff;
+  background-color: #428bca;
+  border: 1px solid transparent;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.ReactLoginUI--text-box {
+  margin: 15px 0px;
+  padding: 6px 12px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
