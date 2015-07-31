@@ -11,9 +11,9 @@ let App = React.createClass({
   login(username, password) {
     console.log('Login: ' + username + ' ' + password);
     if (username === 'react') {
-      this.setState({user: 'react', loginError: null});
+      this.setState({user: 'react'});
     } else {
-      this.setState({user: null, loginError: 'Username must be \'react\''});
+      this.refs.login.setErrorMessage('Username must be \'react\'');
     }
   },
 
@@ -29,10 +29,10 @@ let App = React.createClass({
     if (!this.state.user) {
       return (
         <Login
+          ref="login"
           loginAction={this.login}
           createAction={this.create}
           forgotAction={this.forgot}
-          errorMessage={this.state.loginError}
         />
       );
     }

@@ -8,6 +8,10 @@ First pass on a reusable (and themeable) interaction component for React.
 
 TODO
 
+## Screenshot
+
+![Screenshot](https://cldup.com/gCZ_AYDNkk.png)
+
 ## Usage
 
 The login functions and results are provided as properties to the login ui component.  Here is a simplified example.  See the `examples` folder for other examples.
