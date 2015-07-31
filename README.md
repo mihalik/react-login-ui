@@ -10,7 +10,7 @@ TODO
 
 ## Screenshot
 
-![Screenshot](https://cldup.com/gCZ_AYDNkk.png)
+![Screenshot](https://cldup.com/Mf7aEsQGeH.gif)
 
 ## Usage
 
